@@ -33,13 +33,7 @@ import com.android.volley.TimeoutError;
 import com.android.volley.VolleyError;
 import com.android.volley.VolleyLog;
 
-import org.apache.http.Header;
-import org.apache.http.HttpEntity;
-import org.apache.http.HttpResponse;
-import org.apache.http.HttpStatus;
-import org.apache.http.StatusLine;
 import org.apache.http.conn.ConnectTimeoutException;
-import org.apache.http.impl.cookie.DateUtils;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -50,6 +44,13 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.TreeMap;
+
+import cz.msebera.android.httpclient.Header;
+import cz.msebera.android.httpclient.HttpEntity;
+import cz.msebera.android.httpclient.HttpResponse;
+import cz.msebera.android.httpclient.HttpStatus;
+import cz.msebera.android.httpclient.StatusLine;
+import cz.msebera.android.httpclient.client.utils.DateUtils;
 
 /**
  * A network performing Volley requests over an {@link HttpStack}.
