@@ -33,8 +33,6 @@ import com.android.volley.TimeoutError;
 import com.android.volley.VolleyError;
 import com.android.volley.VolleyLog;
 
-import org.apache.http.conn.ConnectTimeoutException;
-
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.MalformedURLException;
@@ -51,6 +49,7 @@ import cz.msebera.android.httpclient.HttpResponse;
 import cz.msebera.android.httpclient.HttpStatus;
 import cz.msebera.android.httpclient.StatusLine;
 import cz.msebera.android.httpclient.client.utils.DateUtils;
+import cz.msebera.android.httpclient.conn.ConnectTimeoutException;
 
 /**
  * A network performing Volley requests over an {@link HttpStack}.

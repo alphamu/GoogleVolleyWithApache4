@@ -20,18 +20,18 @@ import com.android.volley.Request.Method;
 import com.android.volley.mock.TestRequest;
 import com.android.volley.toolbox.HttpClientStack.HttpPatch;
 
-import org.apache.http.client.methods.HttpDelete;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.client.methods.HttpHead;
-import org.apache.http.client.methods.HttpOptions;
-import org.apache.http.client.methods.HttpPost;
-import org.apache.http.client.methods.HttpPut;
-import org.apache.http.client.methods.HttpTrace;
-import org.apache.http.client.methods.HttpUriRequest;
-
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.robolectric.RobolectricTestRunner;
+
+import cz.msebera.android.httpclient.client.methods.HttpDelete;
+import cz.msebera.android.httpclient.client.methods.HttpGet;
+import cz.msebera.android.httpclient.client.methods.HttpHead;
+import cz.msebera.android.httpclient.client.methods.HttpOptions;
+import cz.msebera.android.httpclient.client.methods.HttpPost;
+import cz.msebera.android.httpclient.client.methods.HttpPut;
+import cz.msebera.android.httpclient.client.methods.HttpTrace;
+import cz.msebera.android.httpclient.client.methods.HttpUriRequest;
 
 import static org.junit.Assert.*;
 

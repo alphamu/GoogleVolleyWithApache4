@@ -20,11 +20,11 @@ import com.android.volley.AuthFailureError;
 import com.android.volley.Request;
 import com.android.volley.toolbox.HttpStack;
 
-import org.apache.http.HttpResponse;
-
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
+
+import cz.msebera.android.httpclient.HttpResponse;
 
 public class MockHttpStack implements HttpStack {
 
